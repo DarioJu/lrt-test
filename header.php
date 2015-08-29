@@ -6,6 +6,8 @@ $config = new Config;
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?php echo $config->BaseUrl("css/style.css"); ?>">
-    <script src="script.js"></script>
+    <script src="<?php echo $config->BaseUrl("js/d3.js"); ?>"></script>
+    <script src="<?php echo $config->BaseUrl("js/d3.layout.cloud.js"); ?>"></script>
   </head>
   <body>
+      <div class="wrapper">
